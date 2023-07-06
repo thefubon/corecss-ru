@@ -1,10 +1,7 @@
-import './globals.css'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['cyrillic'] })
+import '../styles/globals.css'
 
 export const metadata = {
-  title: '.Core CSS',
+  title: 'Core CSS - Фреймворк для быстрого создания пользовательских интерфейсов.',
   description: '',
 }
 
@@ -15,7 +12,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body>
+        {children}
+      </body>
     </html>
   )
 }

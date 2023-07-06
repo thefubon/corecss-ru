@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '@/styles/globals.css'
 
 export const metadata = {
   title: 'Core CSS - Фреймворк для быстрого создания пользовательских интерфейсов.',
@@ -12,7 +12,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='h-full'>
-      <body className='h-full antialiased'>
+      <body className='h-full'>
         {children}
       </body>
     </html>

@@ -5,7 +5,7 @@ export const metadata = {
 
 export default async function DocsLayout({children}: { children: React.ReactNode }) {
   return (
-    <main className="h-screen">
+    <main className="h-full">
       Header
       {children}
     </main>

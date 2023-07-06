@@ -22,14 +22,13 @@ module.exports = {
       md: '768px',
       lg: '1024px',
       xl: '1280px',
-      '2xl': '1440px',
     },
     extend: {
       colors: {
         'light': {
           primary: '#3984FE',
           'hover': {
-            primary: '#1D72FE'
+            primary: '#1D72FE',
           },
         },
       },
@@ -43,10 +42,10 @@ module.exports = {
       },
       height: {
         7.5: '1.875rem',
-        18: '4.5rem'
+        18: '4.5rem',
       },
       borderRadius: {
-        '4xl': '2rem'
+        '4xl': '2rem',
       }
     },
   },
